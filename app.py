@@ -40,9 +40,9 @@ if st.button("💾 Lưu KPI"):
 # ===== UPLOAD =====
 col1, col2 = st.columns(2)
 with col1:
-    files_phat = st.file_uploader("📦 Khâu phát", type=["xlsx"], accept_multiple_files=True)
+    files_phat = st.file_uploader("📦 Khâu phát(Baocaotonghopkhauphat)", type=["xlsx"], accept_multiple_files=True)
 with col2:
-    files_thu = st.file_uploader("💰 Khâu thu", type=["xlsx"], accept_multiple_files=True)
+    files_thu = st.file_uploader("💰 Khâu thu(Baocaotonghopkhauthu)", type=["xlsx"], accept_multiple_files=True)
 
 def load_phat(files):
     dfs = []
