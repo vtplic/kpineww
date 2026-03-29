@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="KPI Dashboard", layout="wide")
 
-st.markdown("<h1 style='text-align: center;'>📊 KPI Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>📊 KPI Dashboard Bưu cục Liên Chiểu</h1>", unsafe_allow_html=True)
 
 # ===== INIT KPI =====
 default_kpi = {
